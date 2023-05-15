@@ -364,6 +364,7 @@ body {
 
 .price-image {
     position: absolute;
+    margin-top: 50px;
     bottom: 0;
     left: 401px;
 }
@@ -496,7 +497,7 @@ body {
     max-height: 400px;
 }
 
-#annotation {
+.annotation {
     font-size: larger;
 }
 
@@ -596,6 +597,12 @@ body {
 
 .video-block {
     display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.video {
     margin: 10px;
 }
 
